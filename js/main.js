@@ -5,7 +5,7 @@ var juego = new Phaser.Game(944,793, Phaser.CANVAS, "got");
 var fondo,fondoPix,cerrar,bolita;
 
 //gifs places
-var winterfell,castleBlack,greyjoy,casaArryn,lannisport,highGarden,dragonstone; 
+var winterfell,castleBlack,greyjoy,casaArryn,lannisport,highGarden,dragonstone,casaTully; 
 
 //Para los titulos
 var style1 = { font: "100px Times New Roman", fill: "#6797F1"};
@@ -37,9 +37,9 @@ var jugando = {
 		juego.load.image('casaArryn','imagenes/casaArryn.jpg');
 		juego.load.spritesheet('lannisport','imagenes/lannisport.png',434,250,29);
 		juego.load.spritesheet('highGarden','imagenes/highGarden.png',248,140,9);
-		juego.load.spritesheet('dragonstone','imagenes/dragonstone.png',480,270,50);
-		/*juego.load.spritesheet('jotun','imagenes/jotunheim.png',500,250,25);
-		juego.load.spritesheet('helheim','imagenes/helheim.png',540,304,30);
+		juego.load.spritesheet('dragonstone','imagenes/dragonstone.png',480,268,50);
+		juego.load.spritesheet('casaTully','imagenes/casaTully.png',480,268,34);
+		/*juego.load.spritesheet('helheim','imagenes/helheim.png',540,304,30);
 		juego.load.spritesheet('niflheim','imagenes/niflheim.png',500,281,6);
 		//Imagenes botones
 		juego.load.image("button1","imagenes/buttonAsg.jpg");
@@ -107,11 +107,11 @@ var jugando = {
 		dragonstoneA.play(8, true);
 		dragonstone.visible = false;
 
-		jotun = juego.add.sprite(250,330,'jotun',25);
-		jotun.scale.setTo(0.7,0.7);
-		var jotunA= jotun.animations.add('jotun');
-		jotunA.play(8, true);
-		jotun.visible = false;
+		casaTully = juego.add.sprite(480,268,'casaTully',34);
+		casaTully.scale.setTo(0.7,0.7);
+		var casaTullyA= casaTully.animations.add('casaTully');
+		casaTullyA.play(8, true);
+		casaTully.visible = false;
 
 		helheim = juego.add.sprite(250,330,'helheim',25);
 		helheim.scale.setTo(0.6,0.6);
