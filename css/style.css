@@ -1,0 +1,110 @@
+@media only screen and (max-width: 2048px){
+.page-header {
+    height: 100vh;
+    background-image: url(../imagenes/asgard.jpg);
+    /*background-image: url(C:/Users/origa/Documents/2019-1/Grafica_Interactiva/DanielOrganista_eje1/imagenes/asgard.jpg);
+   */ background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+}
+.page-location {
+    height: 100vh;
+    background-image: url(../imagenes/asp.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+.header{
+    height: 0%;
+}
+.page-locationA {
+    height: 100vh;
+    background-image: url(../imagenes/aspdis.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.page-people {
+    height: 100vh;
+    background-image: url(../imagenes/asgardians.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.page-activities {
+    height: 100vh;
+    background-image: url(../imagenes/asgard1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.page-history {
+    height: 100vh;
+    background-image: url(../imagenes/histAsgard.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+#contIndex{
+    background-image: url(../imagenes/asgardP.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#contLoc{
+    background-image: url(../imagenes/aspdis.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#contPeop{
+    background-image: url(../imagenes/Asgard_Per.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#contAct{
+    background-image: url(../imagenes/Asgard_Act.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#contHist{
+    background-image: url(../imagenes/Asgard_P.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.textP{
+    position: relative;
+    color: black;
+    filter: none;
+    text-align: justify;
+    border-radius: 15px;
+}
+
+#odinT, #thorT, #lokiT, #friggaT, #helaT, #heimT{
+    background-color: burlywood;
+}
+
+.textL{
+    background: rgb(193, 221, 138);
+    /*font: 10px/10px verdana; color: black;
+    border: 1px solid black; text-align: justify;
+    padding: 10px;*/
+}
+
+.juegoPhaser{
+    box-shadow: 10px 15px 15px 0px rgba(0,0,0,0.4);
+    width: 50%;
+    margin: auto;
+}
