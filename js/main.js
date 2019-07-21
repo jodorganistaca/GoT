@@ -31,7 +31,7 @@ var casaMartellButton;
 var t1, t2, t3, t4, t5, t6, t7, t8, t9;
 
 //parrafos
-var p1,p2,p3,p4,p5,p6,p7,p8,p9;
+var text1,text2,text3,text4,text5,text6,text7,text8,text9,text10;
 // Define "jugando", donde va a ocurrir el juego
 // El estado jugando tiene tres métodos básicos: preload, create y update
 var jugando = {
@@ -142,7 +142,27 @@ var jugando = {
 		highGardenButton = juego.add.button(379,616, "button7",verHighGarden,this);
 		baratheonButton = juego.add.button(526,560, "button8",verBaratheon,this);
 		casaMartellButton = juego.add.button(514,718, "button9",verCasaMartell,this);
-		
+
+		text1 = juego.add.text(0,0,'La Casa Stark de Invernalia es una casa noble del Norte. \nSu asentamiento es Invernalia. Durante siglos, fue la casa prin\ncipal del Norte y su linaje se extiende hasta los Primeros \nHombres, gobernando el Norte como reyes por derecho propio. Su \nemblema es un lobo huargo de cenizo corriendo sobre campo de \nplata. Su lema es Se acerca el Invierno. Su mandoble ancestral \nde acero valyrio se llamaba Hielo.');
+		text1.visible = false;
+		text2 = juego.add.text(0,0,'La Guardia de la Noche, también conocida como la Guardia, es una \norden cuya misión es la defensa del Muro, la inmensa fortificación que \nsirve de frontera norte a los Siete Reinos, y proteger a los Siete Reinos \nde lo que existe más allá del Muro. La fundación de la Guardia data de \nla Edad de los Héroes, época en la que los Otros fueron desterrados.');
+		text2.visible = false;
+		text3 = juego.add.text(0,0,'La Casa Greyjoy de Pyke es una de las grandes casas de \nPoniente. Es la principal casa de las Islas del Hierro, un conjunto de \nislas desoladas en la costa oeste de Poniente. Su asentamiento es \nPyke, un castillo situado en la isla del mismo nombre. Su emblema \nes un kraken de oro sobre campo de sable. Su lema es Nosotros \nno sembramos.');
+		text3.visible = false;
+		text4 = juego.add.text(0,0,'La Casa Arryn del Nido de Águilas es la casa principal del Valle \nde Arryn y las Montañas de la Luna. Su asentamiento principal es el \nNido de Águilas, pero tienen muchos otros asentamientos menores. \nSu linaje se extiende hasta la antigua nación de los Ándalos que \ninvadió Poniente. Su emblema es una luna creciente y un halcón de \nplata en campo de cielo. Su lema es Tan Alto como el Honor.');
+		text4.visible = false;
+		text5 = juego.add.text(0,0,'La Casa Lannister de Roca Casterly es la principal casa noble de \nlas Tierras del Oeste. Su asentamiento es Roca Casterly. Su \nemblema es un león rampante de oro sobre campo de gules. Su \nlema es ¡Oye mi Rugido!, aunque su lema no oficial, Un Lannister \nsiempre paga sus deudas, es más conocido.');
+		text5.visible = false;
+		text6 = juego.add.text(0,0,'La Casa Tully de Aguasdulces fue la casa principal de las Tierras \nde los Ríos. Gobernaron la región como Señores Supremos del \nTridente hasta la Guerra de los Cinco Reyes, tras la cual fueron \ndespojados de sus títulos y tierras por rebelarse contra el Trono de \nHierro. Su asentamiento fue, hasta 300 d.C., Aguasdulces.');
+		text6.visible = false;
+		text7 = juego.add.text(0,0,'La Casa Tyrell de Altojardín es la casa gobernante del Dominio. \nLos Tyrell aseguran trazar su descendencia a través de la línea \nfemenina del legendario Garth Gardener, el mítico primer Rey del \nDominio que gobernó en la Edad de los Héroes, y el hijo del \nigualmente legendario Garth Manoverde. A diferencia de otras \ngrandes casas, los Tyrell nunca gobernaron como reyes.');
+		text7.visible = false;
+		text8 = juego.add.text(0,0,'La Casa Baratheon de Bastión de Tormentas es una casa noble \nde las Tierras de la Tormenta. Su asentamiento es Bastión de \nTormentas, que fue residencia de la Casa Durrandon, los antiguos \nReyes de la Tormenta. Su emblema es un venado coronado de \nsable sobre campo de oro. Su lema es Nuestra es la Furia.');
+		text8.visible = false;
+		text9 = juego.add.text(0,0,'La Casa Targaryen es una casa noble de ascendencia Valyria que \nreinó durante casi trescientos años los Siete Reinos de Poniente. \nSus asentamientos eran la capital del reino Desembarco del Rey, la \nisla de Rocadragón y el castillo de Refugio Estival. Su emblema es \nun dragón de tres cabezas de gules en campo sable, representando \na Aegon I y sus hermanas Rhaenys y Visenya.');
+		text9.visible = false;
+		text10 = juego.add.text(0,0,'La Casa Nymeros Martell de Lanza del Sol es la casa gobernante \nde Dorne. La palabra Nymeros significa de la línea de Nymeria, \naunque generalmente es llamada sólo Casa Martell. Su \nasentamiento es el Palacio Antiguo de Lanza del Sol. Su emblema \nes un sol de gules atravesado por una lanza de oro sobre fondo \nnaranja. Su lema es Nunca Doblegado, Nunca Roto.');
+		text10.visible = false;
 		
 		bolita = this.add.graphics();
 	},
